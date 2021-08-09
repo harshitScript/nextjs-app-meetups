@@ -17,6 +17,7 @@ const HomePage = (props) => {
           content="Browser a huge list of highly active React meetups"
         />
       </Head>
+      {console.log(props.meetups)}
       <MeetupList meetups={props.meetups} />
     </>
   );
